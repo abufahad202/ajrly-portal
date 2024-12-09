@@ -1,0 +1,762 @@
+<!doctype html>
+<html lang="ar" dir="rtl"> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>اجرلي</title>
+    <link rel="stylesheet" href="css/custom-ar.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    
+  </head>
+  <body>
+    <header class="p-5">
+        <div  id="navbar_top" class="container header d-flex justify-content-between align-items-center py-3 px-3">
+            <a class="sitelogo" href="index.html"><img src="img/logo.svg" alt=""></a>
+            <nav class="navbar navbar-expand-lg flex-fill ps-3">
+                <div class="container-fluid">
+                    <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler-icon navbar-toggler"></span>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">العقارات</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">الاعلانات</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">الخدمات</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            المسوقين
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">الشركات</a></li>
+                          <li><a class="dropdown-item" href="#">الافراد</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">الأسئلة الشائعة</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            <ul class="d-flex justify-content-between align-items-center head-links m-0">
+                <li class="me-3"><a href="login.html"><i class="fal fa-user me-1"></i><span>تسجيل الدخول</span> </a></li>
+                <li><a href="#"><span>English</span> <i class="fal fa-globe ms-1"></i></a></li>
+            </ul>
+        </div>
+        <div class="container px-0 slider pb-5">
+            <div id="site-carousel" class="carousel slide pt-5" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#site-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#site-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#site-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    
+                    <div class="d-none d-md-block">
+                      <h5 class="mb-3">ابحث عن عقارك الان</h5>
+                      <p>الهيئة العامة للعقار" تصدر "ضوابط الإعلانات العقارية" ومعايير ترخيص المنصات العقارية الإلكترونية وتصنيفها</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    
+                    <div class="d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    
+                    <div class="d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+        </div>
+        <div class="container mt-5 px-0">
+            <div class="searchForm d-flex justify-content-start align-items-center p-2 ps-3">
+                <div class="select pe-3  flex-fill">
+                    <label class="form-label m-0">نوع التصنيف</label>
+                    <select class="form-select ps-0">
+                        <option selected>اختر التصنيف</option>
+                        <option value="1">سكني</option>
+                        <option value="2">تجاري</option>
+                    </select>
+                </div>
+                <div class="select px-3  flex-fill">
+                    <label class="form-label m-0">نوع العقار</label>
+                    <select class="form-select ps-0">
+                        <option selected>اختر نوع العقار</option>
+                        <option value="1">فيلا</option>
+                        <option value="2">شقة</option>
+                        <option value="3">دور</option>
+                    </select>
+                </div>
+                <div class="select px-3  flex-fill">
+                    <label class="form-label m-0">نوع العقد</label>
+                    <select class="form-select ps-0">
+                        <option selected>اختر نوع العقد</option>
+                        <option value="1">فيلا</option>
+                        <option value="2">شقة</option>
+                        <option value="3">دور</option>
+                    </select>
+                </div>
+                <div class="select px-3 border-0  flex-fill">
+                    <label class="form-label m-0">الحي</label>
+                    <select class="form-select ps-0">
+                        <option selected>اختر الحي</option>
+                        <option value="1">فيلا</option>
+                        <option value="2">شقة</option>
+                        <option value="3">دور</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-secondary custom-btn"><i class="fal fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container px-0 py-5">
+        <div class="about d-flex justify-content-between align-items-top">
+            <img src="img/about-img.jpg" alt="">
+            <div class="about-text">
+                <h2>عن المنصة </h2>
+                <p>الهيئة العامة للعقار" تصدر "ضوابط الإعلانات العقارية" ومعايير ترخيص المنصات العقارية الإلكترونية وتصنيفها الهيئة العامة للعقار" تصدر "ضوابط الإعلانات العقارية" ومعايير ترخيص المنصات العقارية الإلكترونية وتصنيفها</p>
+                <div class="status">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="status-div d-flex justify-content-between align-items-center flex-fill">
+                            <div class="number p-3 d-flex justify-content-between align-items-center flex-fill me-2">
+                                <div class="">
+                                    <p class="m-2">650</p>
+                                    <h6>وحدة عقارية</h6>
+                                </div>
+                                <i class="fal fa-home"></i>
+                            </div>
+                            <div class="number p-3 d-flex justify-content-between align-items-center flex-fill ms-2">
+                                <div class="">
+                                    <p class="m-2">298</p>
+                                    <h6>عقود التأجير</h6>
+                                </div>
+                                <i class="fal fa-file-check"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="status-div d-flex justify-content-between align-items-center flex-fill">
+                            <div class="number p-3 d-flex justify-content-between align-items-center flex-fill me-2">
+                                <div class="">
+                                    <p class="m-2">650</p>
+                                    <h6>وحدة عقارية</h6>
+                                </div>
+                                <i class="fal fa-home"></i>
+                            </div>
+                            <div class="number p-3 d-flex justify-content-between align-items-center flex-fill ms-2">
+                                <div class="">
+                                    <p class="m-2">298</p>
+                                    <h6>عقود التأجير</h6>
+                                </div>
+                                <i class="fal fa-file-check"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary-outline mt-5 d-block m-auto">المزيد عن اجرلى</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="container px-0">
+            <div class="d-flex align-items-center justify-content-between flex-wrap">
+            <div class="dec">
+                <h1>خدمات المنصة</h1>
+                <p>نقدم لكم خدماتنا بكل مصداقية واحترافية</p>
+                <button class="btn btn-white">استعرض جميع الخدمات</button>
+            </div>
+
+            <div class="owl-carousel">
+                <div class="service-box ps-5 py-4"> 
+                    <i class="fal fa-file-check"></i>
+                    <h4>توثيق العقود - ايجار</h4>
+                    <p class="m-0">
+                        نقدم الخدمات اللوجستية التي تلبي احتياجكم
+                    </p>
+                 </div>
+                 <div class="service-box ps-5 py-4"> 
+                    <i class="fal fa-truck"></i>
+                    <h4>خدمات لوجيستية</h4>
+                    <p class="m-0">
+                        نقدم الخدمات اللوجستية التي تلبي احتياجكم
+                    </p>
+                 </div>
+                 <div class="service-box ps-5 py-4"> 
+                    <i class="fal fa-user"></i>
+                    <h4>خدمات المستأجر</h4>
+                    <p class="m-0">
+                        نقدم الخدمات اللوجستية التي تلبي احتياجكم
+                    </p>
+                 </div>
+                 <div class="service-box ps-5 py-4"> 
+                    <i class="fal fa-home-lg-alt"></i>
+                    <h4>الاعلانات</h4>
+                    <p class="m-0">
+                        نقدم الخدمات اللوجستية التي تلبي احتياجكم
+                    </p>
+                 </div>
+                 <div class="service-box ps-5 py-4"> 
+                    <i class="fal fa-volume-up"></i>
+                    <h4>خدمات المعلن</h4>
+                    <p class="m-0">
+                        نقدم الخدمات اللوجستية التي تلبي احتياجكم
+                    </p>
+                 </div>
+            </div>
+
+        </div>
+            
+        </div>
+    </div>
+
+    <div class="units">
+        <div class="container p-5 px-0">
+            <h1 class="mb-5">الوحدات العقارية</h1>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item me-1" role="presentation">
+                  <button class="nav-link active" id="first-tab" data-bs-toggle="tab" data-bs-target="#first-tab-pane" type="button" role="tab" aria-controls="first-tab-pane" aria-selected="true">الكل</button>
+                </li>
+                <li class="nav-item me-1" role="presentation">
+                  <button class="nav-link" id="second-tab" data-bs-toggle="tab" data-bs-target="#second-tab-pane" type="button" role="tab" aria-controls="second-tab-pane" aria-selected="false">سكني <i class="fas fa-bed ms-2"></i></button>
+                </li>
+                <li class="nav-item me-1" role="presentation">
+                  <button class="nav-link" id="third-tab" data-bs-toggle="tab" data-bs-target="#third-tab-pane" type="button" role="tab" aria-controls="third-tab-pane" aria-selected="false">تجاري <i class="far fa-credit-card ms-2"></i></button>
+                </li>
+                <li class="nav-item me-1" role="presentation">
+                    <button class="nav-link" id="forth-tab" data-bs-toggle="tab" data-bs-target="#forth-tab-pane" type="button" role="tab" aria-controls="forth-tab-pane" aria-selected="false">إداري <i class="fas fa-suitcase ms-2"></i></button>
+                  </li>
+              </ul>
+              <div class="tab-content py-4" id="myTabContent">
+                <div class="tab-pane fade show active" id="first-tab-pane" role="tabpanel" aria-labelledby="first-tab" tabindex="0">
+                    <div class="d-flex align-items-center justify-content-between flex-lg-nowrap flex-wrap">
+                        <a class="card-link d-block" href="">
+                            <div class="card">
+                                <img src="img/card-img.png" class="card-img-top" alt="...">
+                                <div class="img-count">
+                                    <p class="m-0">16</p>
+                                    <span>صورة</span>
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title mt-2">شالية للبيع</h5>
+                                  <p class="card-text">شالية في العمارية في موقع مميز جدا فرصة لمحبي الاستجمام والاستمتاع باجواء شتاء الرياض الجميلة والعائلية الحميمة</p>
+                                  <div class="d-flex align-items-center justify-content-start flex-wrap">
+                                    <div class="feature me-2">
+                                        <i class="fas fa-toilet"></i>
+                                        <span>دورة مياة 3</span>
+                                    </div>
+                                    <div class="feature me-2">
+                                        <i class="fas fa-map"></i>
+                                        <span>2000 م</span>
+                                    </div>
+                                    <div class="feature me-2">
+                                        <i class="fas fa-utensils"></i>
+                                        <span>غرفة طعام 1</span>
+                                    </div>
+                                    <div class="feature me-2">
+                                        <i class="fas fa-bed"></i>
+                                        <span>غرفة نوم 2</span>
+                                    </div>
+                                </div>
+                                <i class="fal fa-long-arrow-left float-end arrowlink pe-3"></i>
+                                </div>
+                              </div>
+                        </a>
+
+                        <a class="card-link d-block mx-5" href="">
+                            <div class="card">
+                                <img src="img/card-img.png" class="card-img-top" alt="...">
+                                <div class="img-count">
+                                    <p class="m-0">16</p>
+                                    <span>صورة</span>
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title mt-2">شالية للبيع</h5>
+                                  <p class="card-text">شالية في العمارية في موقع مميز جدا فرصة لمحبي الاستجمام والاستمتاع باجواء شتاء الرياض الجميلة والعائلية الحميمة</p>
+                                  <div class="d-flex align-items-center justify-content-start flex-wrap">
+                                    <div class="feature me-2">
+                                        <i class="fas fa-toilet"></i>
+                                        <span>دورة مياة 3</span>
+                                    </div>
+                                    <div class="feature me-2">
+                                        <i class="fas fa-map"></i>
+                                        <span>2000 م</span>
+                                    </div>
+                                    <div class="feature me-2">
+                                        <i class="fas fa-utensils"></i>
+                                        <span>غرفة طعام 1</span>
+                                    </div>
+                                    <div class="feature me-2">
+                                        <i class="fas fa-bed"></i>
+                                        <span>غرفة نوم 2</span>
+                                    </div>
+                                </div>
+                                <i class="fal fa-long-arrow-left float-end arrowlink pe-3"></i>
+                                </div>
+                              </div>
+                        </a>
+
+                        <a class="card-link d-block" href="">
+                            <div class="card">
+                                <img src="img/card-img.png" class="card-img-top" alt="...">
+                                <div class="img-count">
+                                    <p class="m-0">16</p>
+                                    <span>صورة</span>
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title mt-2">شالية للبيع</h5>
+                                  <p class="card-text">شالية في العمارية في موقع مميز جدا فرصة لمحبي الاستجمام والاستمتاع باجواء شتاء الرياض الجميلة والعائلية الحميمة</p>
+                                  <div class="d-flex align-items-center justify-content-start flex-wrap">
+                                    <div class="feature me-2">
+                                        <i class="fas fa-toilet"></i>
+                                        <span>دورة مياة 3</span>
+                                    </div>
+                                    <div class="feature me-2">
+                                        <i class="fas fa-map"></i>
+                                        <span>2000 م</span>
+                                    </div>
+                                    <div class="feature me-2">
+                                        <i class="fas fa-utensils"></i>
+                                        <span>غرفة طعام 1</span>
+                                    </div>
+                                    <div class="feature me-2">
+                                        <i class="fas fa-bed"></i>
+                                        <span>غرفة نوم 2</span>
+                                    </div>
+                                </div>
+                                <i class="fal fa-long-arrow-left float-end arrowlink pe-3"></i>
+                                </div>
+                              </div>
+                        </a>
+
+                    </div>
+                    <button class="btn btn-primary mt-4 d-block m-auto">استعرض جميع الوحدات</button>
+                </div>
+                <div class="tab-pane fade" id="second-tab-pane" role="tabpanel" aria-labelledby="second-tab" tabindex="0">second</div>
+                <div class="tab-pane fade" id="third-tab-pane" role="tabpanel" aria-labelledby="third-tab" tabindex="0">third</div>
+                <div class="tab-pane fade" id="forth-tab-pane" role="tabpanel" aria-labelledby="forth-tab" tabindex="0">.forth</div>
+              </div>
+        </div>
+    </div>
+
+
+    <div class="marketer">
+        <div class="container px-0">
+            <div class="d-flex align-items-center justify-content-between flex-wrap">
+            <div class="dec">
+                <h1>المسوقين العقاريين</h1>
+                <p>اكتشف تعليقات مستخدمين اجرلي الذين استخدمو المنصة من مستأجرين و مؤجرين</p>
+                <button class="btn btn-primary">استعرض جميع المسوقين</button>
+            </div>
+
+            <div class="owl-carousel">
+
+                <div class="marketer-box company"> 
+                    <div class="head d-flex align-items-center justify-content-start p-3">
+                        <div class="img me-3">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>شركة اليسر العقارية</h3>
+                            <div class="rating d-flex align-items-center justify-content-start">
+                                <i class="far fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content p-5">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="box text-center p-3">
+                                <i class="fal fa-user"></i>
+                                <p>عضو منذ<b class="ms-1">2019</b></p>
+                            </div>
+                            <div class="box text-center p-3">
+                                <i class="fal fa-home-lg-alt"></i>
+                                <p>عدد العقارات<b class="ms-1">87</b></p>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary-outline mt-3 m-auto d-block w-100">استعرض الملف التعريفي</button>
+                    </div>
+                 </div>
+
+
+                 <div class="marketer-box company"> 
+                    <div class="head d-flex align-items-center justify-content-start p-3">
+                        <div class="img me-3">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>شركة اليسر العقارية</h3>
+                            <div class="rating d-flex align-items-center justify-content-start">
+                                <i class="far fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content p-5">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="box text-center p-3">
+                                <i class="fal fa-user"></i>
+                                <p>عضو منذ<b class="ms-1">2019</b></p>
+                            </div>
+                            <div class="box text-center p-3">
+                                <i class="fal fa-home-lg-alt"></i>
+                                <p>عدد العقارات<b class="ms-1">87</b></p>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary-outline mt-3 m-auto d-block w-100">استعرض الملف التعريفي</button>
+                    </div>
+                 </div>
+
+                 <div class="marketer-box individual"> 
+                    <div class="head d-flex align-items-center justify-content-start p-3">
+                        <div class="avatar me-3">
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>شركة اليسر العقارية</h3>
+                            <div class="rating d-flex align-items-center justify-content-start">
+                                <i class="far fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content p-5">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="box text-center p-3">
+                                <i class="fal fa-user"></i>
+                                <p>عضو منذ<b class="ms-1">2019</b></p>
+                            </div>
+                            <div class="box text-center p-3">
+                                <i class="fal fa-home-lg-alt"></i>
+                                <p>عدد العقارات<b class="ms-1">87</b></p>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary-outline mt-3 m-auto d-block w-100">استعرض الملف التعريفي</button>
+                    </div>
+                 </div>
+
+                 <div class="marketer-box individual"> 
+                    <div class="head d-flex align-items-center justify-content-start p-3">
+                        <div class="avatar me-3">
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>شركة اليسر العقارية</h3>
+                            <div class="rating d-flex align-items-center justify-content-start">
+                                <i class="far fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content p-5">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="box text-center p-3">
+                                <i class="fal fa-user"></i>
+                                <p>عضو منذ<b class="ms-1">2019</b></p>
+                            </div>
+                            <div class="box text-center p-3">
+                                <i class="fal fa-home-lg-alt"></i>
+                                <p>عدد العقارات<b class="ms-1">87</b></p>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary-outline mt-3 m-auto d-block w-100">استعرض الملف التعريفي</button>
+                    </div>
+                 </div>
+
+                 <div class="marketer-box company"> 
+                    <div class="head d-flex align-items-center justify-content-start p-3">
+                        <div class="img me-3">
+                            <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="title">
+                            <h3>شركة اليسر العقارية</h3>
+                            <div class="rating d-flex align-items-center justify-content-start">
+                                <i class="far fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content p-5">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="box text-center p-3">
+                                <i class="fal fa-user"></i>
+                                <p>عضو منذ<b class="ms-1">2019</b></p>
+                            </div>
+                            <div class="box text-center p-3">
+                                <i class="fal fa-home-lg-alt"></i>
+                                <p>عدد العقارات<b class="ms-1">87</b></p>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary-outline mt-3 m-auto d-block w-100">استعرض الملف التعريفي</button>
+                    </div>
+                 </div>
+                 
+            </div>
+
+        </div>
+            
+        </div>
+    </div>
+
+    <div class="journeys p-5">
+        <div class="container text-center px-0">
+            <h1>رحلات المستخدمين</h1>
+            <p class="dec">استكشف على تفصيل اجراءات المستخدمين من البداية الى النهاية </p>
+
+            <ul class="nav nav-pills mb-3 mt-4" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">رحلة المستاجر</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">رحلة المسوق</button>
+                </li>
+
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <div class="d-flex justify-content-between align-items-center mt-5 px-5 flex-wrap">
+                        <div class="step">
+                            <i class="fal fa-search"></i>
+                            <p>بحث عن العقار</p>
+                        </div>
+                        <div class="next">
+                            <i class="fal fa-arrow-left"></i>
+                        </div>
+                        <div class="step">
+                            <i class="fal fa-home-alt"></i>
+                            <p>طلب زيارة العقار</p>
+                        </div>
+                        <div class="next">
+                            <i class="fal fa-arrow-left"></i>
+                        </div>
+                        <div class="step">
+                            <i class="fal fa-key"></i>
+                            <p>خيار الدخول المناسب</p>
+                        </div>
+                        <div class="next">
+                            <i class="fal fa-arrow-left"></i>
+                        </div>
+                        <div class="step">
+                            <i class="fal fa-home-alt"></i>
+                            <p>احجز الوحدة</p>
+                        </div>
+                        <div class="next">
+                            <i class="fal fa-arrow-left"></i>
+                        </div>
+                        <div class="step">
+                            <i class="fal fa-file-contract"></i>
+                            <p>انهي اجراءات العقد</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <div class="d-flex justify-content-between align-items-center mt-5 px-5 flex-wrap">
+                        <div class="step">
+                            <i class="fal fa-search"></i>
+                            <p>بحث عن العقار</p>
+                        </div>
+                        <div class="next">
+                            <i class="fal fa-arrow-left"></i>
+                        </div>
+                        <div class="step">
+                            <i class="fal fa-home-alt"></i>
+                            <p>طلب زيارة العقار</p>
+                        </div>
+                        <div class="next">
+                            <i class="fal fa-arrow-left"></i>
+                        </div>
+                        <div class="step">
+                            <i class="fal fa-key"></i>
+                            <p>خيار الدخول المناسب</p>
+                        </div>
+                        <div class="next">
+                            <i class="fal fa-arrow-left"></i>
+                        </div>
+                        <div class="step">
+                            <i class="fal fa-home-alt"></i>
+                            <p>احجز الوحدة</p>
+                        </div>
+                        <div class="next">
+                            <i class="fal fa-arrow-left"></i>
+                        </div>
+                        <div class="step">
+                            <i class="fal fa-file-contract"></i>
+                            <p>انهي اجراءات العقد</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="choeses p-5">
+        <div class="container px-0">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <div class="enter text-center p-5">
+                        <i class="fal fa-key mb-3"></i>
+                        <h4 class="mb-5">خيارات الدخول للعقار</h4>
+                        <ul class="m-0 p-0">
+                            <li class="p-2 text-center">الصناديق </li>
+                            <li class="p-2 text-center">المفاتيح الذكية</li>
+                            <li class="p-2 text-center">حارس المبنى</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="enter text-center p-5">
+                        <i class="fas fa-headset mb-3"></i>
+                        <h4 class="mb-5">خيارات الدعم الفني</h4>
+                        <ul class="m-0 p-0">
+                            <li class="p-2 text-center">المكالمات الهاتفية </li>
+                            <li class="p-2 text-center">البريد الالكتروني</li>
+                            <li class="p-2 text-center">تذاكر الدعم الفني</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="enter text-center p-5">
+                        <i class="fal fa-credit-card mb-3"></i>
+                        <h4 class="mb-5">خيارات الدفع المتاحة</h4>
+                        <div class="d-flex flex-wrap justify-content-center align-items-center">
+                            <img class="mx-3 mb-3" src="img/master.png" alt="">
+                            <img class="mx-3 mb-3" src="img/visa.png" alt="">
+                            <img class="mx-3 mb-3" src="img/mada.png" alt="">
+                            <img class="mx-3 mb-3" src="img/applePay.png" alt="">
+                            <img class="mx-3 mb-3" src="img/stcpay.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+
+    <div class="parteners p-5">
+        <div class="container text-center px-0">
+            <h1>الشركاء</h1>
+            <p>تفتخر منصة اجرلي بالشركات مع الجهات المختلفه والتي تدعم عمل المنصة وتعطي الثقة لدي العملاء</p>
+            <div class="d-flex justify-content-center align-items-center my-5 flex-wrap">
+                <a class="mx-4" href="#"><img src="img/rega.png" alt=""></a>
+                <a class="mx-4" href="#"><img src="img/elm.png" alt=""></a>
+                <a class="mx-4" href="#"><img src="img/momra.png" alt=""></a>
+                <a class="mx-4" href="#"><img src="img/stc.png" alt=""></a>
+            </div>
+            <button class="btn btn-primary">جميع الشركاء</button>
+        </div>
+    </div>
+    
+
+    <footer class="p-5">
+        <div class="container px-0">
+            <div class="d-flex align-items-top justify-content-between footer-section flex-wrap pb-3">
+                <div class="links flex-fill">
+                    <h3 class="mb-3">عن المنصة</h3>
+                    <ul class="p-0 m-0">
+                        <li><a href="#">سياسة إستخدام المنصة</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                        <li><a href="#">سياسة حقوق الملكية الفكرية</a></li>
+                        <li><a href="#">ضوابط الاعلانات العقارية</a></li>
+                    </ul>
+                </div>
+                <div class="links flex-fill">
+                    <h3 class="mb-3">الخدمات</h3>
+                    <ul class="p-0 m-0">
+                        <li><a href="#">خدمة المعلن</a></li>
+                        <li><a href="#">خدمة المستأجر</a></li>
+                        <li><a href="#">توثيق عقد (إيجار)</a></li>
+                        <li><a href="#">خدمات لوجيستية</a></li>
+                    </ul>
+                </div>
+                <div class="links flex-fill">
+                    <h3 class="mb-3">تواصل معنا</h3>
+                    <ul class="p-0 m-0">
+                        <li><a href="#">أتصل بنا</a></li>
+                        <li><a href="#">الأسئلة الشائعة</a></li>
+                        <li><a href="#">خريطة الموقع</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <ul class="m-0 p-0">
+                        <li class="mb-3">
+                            <img src="img/footer-logo.svg" alt="">
+                        </li>
+                        <li class="mb-3">
+                            <img src="img/fal.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+                <p>2024 © جميع الحقوق محفوظة لـ أجرلي</p>
+                <ul class="p-0 m-0 social">
+                    <li class="mx-2">
+                        <a href="#"><img src="img/insta.svg" alt=""></a>
+                    </li>
+                    <li class="mx-2">
+                        <a href="#"><img src="img/youtube.svg" alt=""></a>
+                    </li>
+                    <li class="mx-2">
+                        <a href="#"><img src="img/x.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+
+  </body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom-js.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/popper.min.js"></script>
+
+
+
+  <script src="js/bootstrap.js"></script>
+
+</html>
