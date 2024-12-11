@@ -715,7 +715,7 @@ footer {
 }
 .otp {
     input {
-        width: 50px;
+        width: 56px;
         text-align: center;
         font-size: 30px;
         height: 50px !important;
@@ -736,7 +736,11 @@ footer {
         font-size: 16px;
     }
 }
+.nafhath {
+    background-color: #fff;
+    p {color: var(--Praimary-blue);font-size: 18px;}
 
+}
 
 
 
@@ -760,6 +764,11 @@ footer {
         .navbar {
             position: absolute;
             width: 65% !important;
+        }
+    }
+    .nafhath {
+        .apps {
+            img {margin-bottom: 20px;}
         }
     }
  }

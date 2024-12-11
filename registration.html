@@ -24,6 +24,7 @@
         <img src="img/login_logo.svg" alt="">
         <h3 class="mt-3">تسجيل مستخدم</h3>
 
+        <!--
         <ul class="nav nav-tabs steps p-3 mt-5">
           <li class="nav-item">
             <a class="nav-link active" data-bs-toggle="tab" href="#home">
@@ -44,160 +45,34 @@
             </a>
           </li>
         </ul>
-        
+        -->
         <!-- Tab panes -->
-        <div class="tab-content">
+        <div class="tab-content w-50 m-auto">
           <div class="tab-pane container active p-0 mt-4" id="home">
             
             <div class="d-flex justify-content-between align-items-center flex-wrap">
-              <div class="mb-3 flex-fill me-3 text-start">
-                <label for="" class="form-label">اسم المستخدم</label>
+              <div class="mb-3 flex-fill text-start">
+                <label for="" class="form-label">رقم الهوية الوطنية / الاقامة</label>
                 <input type="text" class="form-control" id="" placeholder="">
-              </div>
-              <div class="mb-3 flex-fill ms-3 text-start">
-                <label for="" class="form-label">تاريخ الميلاد</label>
-                <input type="date" class="form-control" id="" placeholder="">
               </div>
             </div>
 
             <div class="d-flex justify-content-between align-items-center custombtn">
               <a href="login.html" class="btn btn-primary-outline btnNext">عودة</a>
-              <a class="btn btn-primary btnNext">تحقق</a>
+              <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                تحقق
+              </a>
             </div>
         
           </div>
-          <div class="tab-pane container fade  mt-4" id="menu1">
-            
-            <div class="info p-3">
-              <h4>البيانات الشخصية</h4>
-              <div class="d-flex justify-content-center align-items-center flex-wrap">
-                <div class="data d-flex justify-content-start align-items-baseline">
-                  <i class="fas fa-user"></i>
-                  <p class="m-0 ps-1">
-                    محمد عبدالله العمر
-                  </p>
-                </div>
-                <div class="data d-flex justify-content-start align-items-baseline mx-3">
-                  <i class="fas fa-id-card"></i>
-                  <p class="m-0 ps-1">
-                    1092837492
-                  </p>
-                </div>
-                <div class="data d-flex justify-content-start align-items-baseline">
-                  <i class="fas fa-globe-asia"></i>
-                  <p class="m-0 ps-1">
-                    سعودي
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="d-flex justify-content-between align-items-center mt-4 flex-wrap">
-              <div class="mb-3 flex-fill me-3 text-start">
-                <label for="" class="form-label">البريد الاكتروني</label>
-                <input type="text" class="form-control" id="" placeholder="">
-              </div>
-              <div class="mb-3 flex-fill ms-3 text-start">
-                <label for="" class="form-label">رقم الجوال</label>
-                <input type="number" class="form-control" id="" placeholder="05xxxxxxxx">
-              </div>
-            </div>
-
-            <div class="d-flex justify-content-between align-items-center custombtn">
-              <a class="btn btn-primary-outline btnPrevious">السابق</a>
-              <a class="btn btn-primary btnNext">متابعة</a>
-            </div>
-
-        
-          </div>
-          <div class="tab-pane container fade mt-4" id="menu2">
-            <div class="d-flex justify-content-start align-items-center flex-wrap mt-4">
-              <div class="form-check me-2">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
-                  اداري
-                </label>
-              </div>
-              <div class="form-check me-2">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
-                <label class="form-check-label" for="flexRadioDefault2">
-                  مستأجر
-                </label>
-              </div>
-              <div class="form-check me-2">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                <label class="form-check-label" for="flexRadioDefault3">
-                  مسوق عقاري
-                </label>
-              </div>
-              <div class="form-check me-2">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
-                <label class="form-check-label" for="flexRadioDefault4">
-                  مالك عقار
-                </label>
-              </div>
-              <div class="form-check me-2">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
-                <label class="form-check-label" for="flexRadioDefault5">
-                  ممثل شركة تسويق
-                </label>
-              </div>
-            </div>
-
-            <div class="d-flex justify-content-between align-items-center mt-4 flex-md-nowrap flex-wrap">
-              <div class="mb-3 w-50 me-3 text-start">
-                <label for="" class="form-label">رقم المعلن</label>
-                <input type="number" class="form-control" id="" placeholder="">
-              </div>
-              <div class="mb-3 w-50 ms-3 text-start">
-                <label for="" class="form-label">رقم الجوال</label>
-                <select class="form-select form-control" aria-label="Default select ">
-                  <option selected>الرجاء الاختيار</option>
-                  <option value="1">منشأة</option>
-                  <option value="2">شركة</option>
-                  <option value="3">مؤسسة</option>
-                </select>
-              </div>
-            </div>
-
-            <div class="d-flex justify-content-between align-items-center mt-4 flex-md-nowrap flex-wrap">
-              <div class="mb-3 flex-fill me-3 text-start">
-                <label for="" class="form-label">صفة المعلن</label>
-                <select class="form-select form-control" aria-label="Default select ">
-                  <option selected>الرجاء الاختيار</option>
-                  <option value="1">منشأة</option>
-                  <option value="2">شركة</option>
-                  <option value="3">مؤسسة</option>
-                </select>
-              </div>
-              <div class="mb-3 flex-fill ms-3 text-start">
-                <label for="" class="form-label">نوع المعلن</label>
-                <select class="form-select form-control" aria-label="Default select ">
-                  <option selected>الرجاء الاختيار</option>
-                  <option value="1">منشأة</option>
-                  <option value="2">شركة</option>
-                  <option value="3">مؤسسة</option>
-                </select>
-              </div>
-            </div>
-            
-            <div class="d-flex justify-content-between align-items-center mt-4 flex-md-nowrap flex-wrap">
-              <div class="mb-3 w-50 me-3 text-start">
-                <label for="" class="form-label">وصف عن المسوق</label>
-                <div class="form-floating">
-                  <textarea class="form-control pt-2"></textarea>
-                </div>
-              </div>
-              <div class="mb-3 w-50 ms-3 text-start">
-                <label for="" class="form-label">نموذج الاعتماد</label>
-                <input class="form-control" type="file" id="formFileMultiple" multiple>
-              </div>
-            </div>
-
-
-            <div class="d-flex justify-content-between align-items-center custombtn">
-              <a class="btn btn-primary-outline btnPrevious">السابق</a>
-              <a href="successPage.html" class="btn btn-primary ">تسجيل</a>
-            </div>
+        </div>
+        <div class="nafhath my-5 p-3">
+          <img class="mb-3" src="img/nafhath.png" alt="">
+          <p>حفاضا علي بياناتك وممتلكاتك من الاحتيال والعمليات غير المصرحة ، فإن التسجيل في المنصة يتم عن طريق منصة الدخول الموحد (نفاذ)</p>
+          <div class="d-flex align-items-center justify-content-center mt-3 apps flex-wrap">
+            <img class="mx-3" src="img/apple-store.png" alt="">
+            <img class="mx-3" src="img/google-store.png" alt="">
+            <img class="mx-3" src="img/huawei-store.png" alt="">
           </div>
         </div>
 
@@ -206,6 +81,31 @@
    
     </div>
 
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">التحقق من نفاذ</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>
+              الرجاء فتح تطبيق نفاذ واختيار الرقم الظاهر ادناه
+              
+              <div class="d-flex justify-content-center align-items-center otp my-3">
+                <input type="text" class="form-control mx-2" placeholder="88" disabled>
+              </div>
+ 
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary-outline" data-bs-dismiss="modal">الغاء</button>
+            <a href="registration-2.html" class="btn btn-primary">تأكيد</a>
+          </div>
+        </div>
+      </div>
+    </div>
     </body>
 
     <script src="js/jquery.min.js"></script>
