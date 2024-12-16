@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>اجرلي</title>
+    <link rel="stylesheet" href="css/custom-ar.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    
+  </head>
+  <body class="inner">
+    <header class="p-5">
+        <div  id="navbar_top" class="container header d-flex justify-content-between align-items-center py-3 px-3">
+            <a class="sitelogo" href="index.html"><img src="img/logo.svg" alt=""></a>
+            <nav class="navbar navbar-expand-lg flex-fill ps-3">
+                <div class="container-fluid">
+                    <span data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler-icon navbar-toggler"></span>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">العقارات</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">الاعلانات</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">الخدمات</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            المسوقين
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">الشركات</a></li>
+                          <li><a class="dropdown-item" href="#">الافراد</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">الأسئلة الشائعة</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+            <ul class="d-flex justify-content-between align-items-center head-links m-0">
+                <li class="me-3"><a href="login"><i class="fal fa-user me-1"></i><span>تسجيل الدخول</span> </a></li>
+                <li><a href="login"><span>English</span> <i class="fal fa-globe ms-1"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="container px-0 mt-2 d-flex justify-content-between align-items-center">
+          <div>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb  mb-0">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+              </ol>
+            </nav>
+            <h1 class="pagetitle">
+              عنوان الصفحة
+            </h1>
+          </div>
+          <div class="share d-flex justify-content-end align-items-center">
+            <a class="p-2 me-2" href="#"><i class="fas fa-share-square"></i></a>
+            <a class="p-2" href="#"><i class="fas fa-print"></i></a>          
+          </div>
+
+        </div>
+
+    </header>
+
+    <div class="container px-0">
+        <div class="content my-5">
+            <div class="fillters d-flex align-items-center justify-content-start p-3">
+              <div class="fillter-input pe-5 px-3">
+                <label for="" class="form-label">نوع التصنيف</label>
+                <select class="form-select form-control ps-0" aria-label="Default select ">
+                  <option selected>الرجاء الاختيار</option>
+                  <option value="1">سكني</option>
+                  <option value="2">تجاري</option>
+                </select>
+              </div>
+
+              <div class="fillter-input pe-5 px-3">
+                <label for="" class="form-label">نوع العقار</label>
+                <select class="form-select form-control ps-0" aria-label="Default select ">
+                  <option selected>الرجاء الاختيار</option>
+                  <option value="1">سكني</option>
+                  <option value="2">تجاري</option>
+                </select>
+              </div>
+
+              <div class="fillter-input pe-5 ps-3 px-3">
+                <label for="" class="form-label">نوع العقد</label>
+                <select class="form-select form-control ps-0" aria-label="Default select ">
+                  <option selected>الرجاء الاختيار</option>
+                  <option value="1">سكني</option>
+                  <option value="2">تجاري</option>
+                </select>
+              </div>
+
+              <div class="fillter-input pe-5 ps-3 px-3">
+                <label for="" class="form-label">الحي</label>
+                <select class="form-select form-control ps-0" aria-label="Default select ">
+                  <option selected>الرجاء الاختيار</option>
+                  <option value="1">سكني</option>
+                  <option value="2">تجاري</option>
+                </select>
+              </div>
+
+              <div class="fillter-input pe-5 ps-3 px-3">
+                <label for="" class="form-label">السعر</label>
+                <select class="form-select form-control ps-0" aria-label="Default select ">
+                  <option selected>الرجاء الاختيار</option>
+                  <option value="1">سكني</option>
+                  <option value="2">تجاري</option>
+                </select>
+              </div>
+
+              <div class="fillter-input pe-5 ps-3 px-3">
+                <label for="" class="form-label">عدد الغرف</label>
+                <select class="form-select form-control ps-0" aria-label="Default select ">
+                  <option selected>الرجاء الاختيار</option>
+                  <option value="1">سكني</option>
+                  <option value="2">تجاري</option>
+                </select>
+              </div>
+
+
+            </div>
+            <div class="row">
+              <div class="right_content col-md-8 py-3">
+                <div class="count d-flex justify-content-between align-items-center p-2">
+                  <p class="m-0">عدد العقارات <span>293</span></p>
+                  <div class="sort d-flex justify-content-end">
+                    <select class="form-select form-control ps-0 me-3" aria-label="Default select ">
+                      <option selected>تصفية حسب </option>
+                      <option value="1">الاقرب لموقعي</option>
+                      <option value="2">الاكبر مساحه</option>
+                    </select>
+                    <select class="form-select form-control ps-0" aria-label="Default select ">
+                      <option selected>ترتيب حسب </option>
+                      <option value="1">الاقل سعر</option>
+                      <option value="2">الاعلى سعر</option>
+                    </select>
+                  </div>
+
+                </div>
+                <div class="ad-box mt-3 p-2 mb-4">
+                  <div class="d-flex">
+                    <div class="image position-relative me-3">
+                      <img src="img/img.png" alt="">
+                      <div class="info p-2 bottom-0 info p-2 position-absolute w-100">
+                        <div class="d-flex align-items-center justify-content-start flex-wrap">
+                          <div class="feature me-2">
+                              <i class="fas fa-toilet"></i>
+                              <span> 3</span>
+                          </div>
+                          <div class="feature me-2">
+                              <i class="fas fa-map"></i>
+                              <span>2000 م</span>
+                          </div>
+                          <div class="feature me-2">
+                              <i class="fas fa-utensils"></i>
+                              <span> 1</span>
+                          </div>
+                          <div class="feature me-2">
+                              <i class="fas fa-bed"></i>
+                              <span> 2</span>
+                          </div>
+                          <div class="feature me-2 flex-fill text-end">
+                            <i class="fas fa-images"></i>
+                            <span> 22</span>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="content flex-fill">
+                      <div class="date-tag d-flex align-items-center justify-content-between">
+                        <p class="flex-fill mb-0">
+                          <i class="far fa-calendar-alt"></i>
+                          تاريخ النشر
+                          <span>10/12/2024</span>
+                        </p>
+                        <span class="badge text-bg-success">اعلان</span>
+                      </div>
+                      <div class="title d-flex justify-content-start align-items-center">
+                        <h3>شقة للايجار</h3>
+                        <div class="dropdown">
+                            <i class="fas fa-share ms-2" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu p-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <i class="fas fa-copy me-2"></i>
+                                  <p class="mb-0">نسخ الرابط</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/facebook.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر فيسبوك</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/twitter.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر تويتر</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/google.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر قوقل</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/whatsapp-icon.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر واتساب</p>
+                                </a>
+                              </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <h3>26,000 ريال</h3>
+                      <p class="mb-0">
+                        <i class="fas fa-map-marker-alt"></i>
+                        الرياض - حي الملقا - شارع ابن معمر
+                      </p>
+                      <p class="dec mb-0">
+                        شقة مؤثثة بايجار سنوي مميز وقريبه من الخدمات
+                      </p>
+                      <div class="contact d-flex justify-content-start align-items-center">
+                        <div class="d-flex justify-content-start align-items-center flex-fill">
+                          <p class="mb-0 me-3">تواصل مع المعلن</p>
+                          <a class="me-3" href="#"><img src="img/whatsapp.svg" alt=""></a>
+                          <a class="me-3" href="#"><img src="img/email.svg" alt=""></a>
+                          <a class="me-3" href="#"><img src="img/phone.svg" alt=""></a>
+                        </div>
+                        <a class="logo p-2" href="#">
+                          <img src="img/logo-example.png" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ad-box mt-3 p-2 mb-4">
+                  <div class="d-flex">
+                    <div class="image position-relative me-3">
+                      <img src="img/img.png" alt="">
+                      <div class="info p-2 bottom-0 info p-2 position-absolute w-100">
+                        <div class="d-flex align-items-center justify-content-start flex-wrap">
+                          <div class="feature me-2">
+                              <i class="fas fa-toilet"></i>
+                              <span> 3</span>
+                          </div>
+                          <div class="feature me-2">
+                              <i class="fas fa-map"></i>
+                              <span>2000 م</span>
+                          </div>
+                          <div class="feature me-2">
+                              <i class="fas fa-utensils"></i>
+                              <span> 1</span>
+                          </div>
+                          <div class="feature me-2">
+                              <i class="fas fa-bed"></i>
+                              <span> 2</span>
+                          </div>
+                          <div class="feature me-2 flex-fill text-end">
+                            <i class="fas fa-images"></i>
+                            <span> 22</span>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="content flex-fill">
+                      <div class="date-tag d-flex align-items-center justify-content-between">
+                        <p class="flex-fill mb-0">
+                          <i class="far fa-calendar-alt"></i>
+                          تاريخ النشر
+                          <span>10/12/2024</span>
+                        </p>
+                        <span class="badge text-bg-warning">اعلان</span>
+                      </div>
+                      <div class="title d-flex justify-content-start align-items-center">
+                        <h3>شقة للايجار</h3>
+                        <div class="dropdown">
+                            <i class="fas fa-share ms-2" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu p-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <i class="fas fa-copy me-2"></i>
+                                  <p class="mb-0">نسخ الرابط</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/facebook.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر فيسبوك</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/twitter.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر تويتر</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/google.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر قوقل</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/whatsapp-icon.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر واتساب</p>
+                                </a>
+                              </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <h3>26,000 ريال</h3>
+                      <p class="mb-0">
+                        <i class="fas fa-map-marker-alt"></i>
+                        الرياض - حي الملقا - شارع ابن معمر
+                      </p>
+                      <p class="dec mb-0">
+                        شقة مؤثثة بايجار سنوي مميز وقريبه من الخدمات
+                      </p>
+                      <div class="contact d-flex justify-content-start align-items-center">
+                        <div class="d-flex justify-content-start align-items-center flex-fill">
+                          <p class="mb-0 me-3">تواصل مع المعلن</p>
+                          <a class="me-3" href="#"><img src="img/whatsapp.svg" alt=""></a>
+                          <a class="me-3" href="#"><img src="img/email.svg" alt=""></a>
+                          <a class="me-3" href="#"><img src="img/phone.svg" alt=""></a>
+                        </div>
+                        <a class="logo p-2" href="#">
+                          <img src="img/logo-example.png" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ad-box mt-3 p-2 mb-4">
+                  <div class="d-flex">
+                    <div class="image position-relative me-3">
+                      <img src="img/img.png" alt="">
+                      <div class="info p-2 bottom-0 info p-2 position-absolute w-100">
+                        <div class="d-flex align-items-center justify-content-start flex-wrap">
+                          <div class="feature me-2">
+                              <i class="fas fa-toilet"></i>
+                              <span> 3</span>
+                          </div>
+                          <div class="feature me-2">
+                              <i class="fas fa-map"></i>
+                              <span>2000 م</span>
+                          </div>
+                          <div class="feature me-2">
+                              <i class="fas fa-utensils"></i>
+                              <span> 1</span>
+                          </div>
+                          <div class="feature me-2">
+                              <i class="fas fa-bed"></i>
+                              <span> 2</span>
+                          </div>
+                          <div class="feature me-2 flex-fill text-end">
+                            <i class="fas fa-images"></i>
+                            <span> 22</span>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="content flex-fill">
+                      <div class="date-tag d-flex align-items-center justify-content-between">
+                        <p class="flex-fill mb-0">
+                          <i class="far fa-calendar-alt"></i>
+                          تاريخ النشر
+                          <span>10/12/2024</span>
+                        </p>
+                        <span class="badge text-bg-success">اعلان</span>
+                      </div>
+                      <div class="title d-flex justify-content-start align-items-center">
+                        <h3>شقة للايجار</h3>
+                        <div class="dropdown">
+                            <i class="fas fa-share ms-2" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu p-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <i class="fas fa-copy me-2"></i>
+                                  <p class="mb-0">نسخ الرابط</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/facebook.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر فيسبوك</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/twitter.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر تويتر</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/google.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر قوقل</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/whatsapp-icon.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر واتساب</p>
+                                </a>
+                              </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <h3>26,000 ريال</h3>
+                      <p class="mb-0">
+                        <i class="fas fa-map-marker-alt"></i>
+                        الرياض - حي الملقا - شارع ابن معمر
+                      </p>
+                      <p class="dec mb-0">
+                        شقة مؤثثة بايجار سنوي مميز وقريبه من الخدمات
+                      </p>
+                      <div class="contact d-flex justify-content-start align-items-center">
+                        <div class="d-flex justify-content-start align-items-center flex-fill">
+                          <p class="mb-0 me-3">تواصل مع المعلن</p>
+                          <a class="me-3" href="#"><img src="img/whatsapp.svg" alt=""></a>
+                          <a class="me-3" href="#"><img src="img/email.svg" alt=""></a>
+                          <a class="me-3" href="#"><img src="img/phone.svg" alt=""></a>
+                        </div>
+                        <a class="logo p-2" href="#">
+                          <img src="img/logo-example.png" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ad-box mt-3 p-2 mb-4">
+                  <div class="d-flex">
+                    <div class="image position-relative me-3">
+                      <img src="img/img.png" alt="">
+                      <div class="info p-2 bottom-0 info p-2 position-absolute w-100">
+                        <div class="d-flex align-items-center justify-content-start flex-wrap">
+                          <div class="feature me-2">
+                              <i class="fas fa-toilet"></i>
+                              <span> 3</span>
+                          </div>
+                          <div class="feature me-2">
+                              <i class="fas fa-map"></i>
+                              <span>2000 م</span>
+                          </div>
+                          <div class="feature me-2">
+                              <i class="fas fa-utensils"></i>
+                              <span> 1</span>
+                          </div>
+                          <div class="feature me-2">
+                              <i class="fas fa-bed"></i>
+                              <span> 2</span>
+                          </div>
+                          <div class="feature me-2 flex-fill text-end">
+                            <i class="fas fa-images"></i>
+                            <span> 22</span>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                    <div class="content flex-fill">
+                      <div class="date-tag d-flex align-items-center justify-content-between">
+                        <p class="flex-fill mb-0">
+                          <i class="far fa-calendar-alt"></i>
+                          تاريخ النشر
+                          <span>10/12/2024</span>
+                        </p>
+                        <span class="badge text-bg-success">اعلان</span>
+                      </div>
+                      <div class="title d-flex justify-content-start align-items-center">
+                        <h3>شقة للايجار</h3>
+                        <div class="dropdown">
+                            <i class="fas fa-share ms-2" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                            <ul class="dropdown-menu p-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <i class="fas fa-copy me-2"></i>
+                                  <p class="mb-0">نسخ الرابط</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/facebook.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر فيسبوك</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/twitter.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر تويتر</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/google.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر قوقل</p>
+                                </a>
+                              </li>
+                              <hr class="m-0">
+                              <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                  <img class="me-2" src="img/whatsapp-icon.svg" alt="">
+                                  <p class="mb-0">مشاركة عبر واتساب</p>
+                                </a>
+                              </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <h3>26,000 ريال</h3>
+                      <p class="mb-0">
+                        <i class="fas fa-map-marker-alt"></i>
+                        الرياض - حي الملقا - شارع ابن معمر
+                      </p>
+                      <p class="dec mb-0">
+                        شقة مؤثثة بايجار سنوي مميز وقريبه من الخدمات
+                      </p>
+                      <div class="contact d-flex justify-content-start align-items-center">
+                        <div class="d-flex justify-content-start align-items-center flex-fill">
+                          <p class="mb-0 me-3">تواصل مع المعلن</p>
+                          <a class="me-3" href="#"><img src="img/whatsapp.svg" alt=""></a>
+                          <a class="me-3" href="#"><img src="img/email.svg" alt=""></a>
+                          <a class="me-3" href="#"><img src="img/phone.svg" alt=""></a>
+                        </div>
+                        <a class="logo p-2" href="#">
+                          <img src="img/logo-example.png" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <nav aria-label="Page navigation example">
+                  <ul class="pagination">
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                      </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                      <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="sidebar col-md-4 py-3">
+                <div class="map">
+                  <h4 class="sidetitle">بحث بالخريطة</h4>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44440.980467724694!2d46.64836388076163!3d24.643831203186632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f059757836809%3A0x4a546d62d5032783!2sRiyadh%20Zoo!5e0!3m2!1sen!2ssa!4v1734356804649!5m2!1sen!2ssa" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="view_more mt-3">
+                  <h4 class="custom_title p-3">
+                    <img src="img/home_icon.svg" alt="">
+                    تصفح ايضا</h4>
+                    <div class="p-2">
+                      <ul class="pb-0 ps-3">
+                        <li>
+                          <a href="#"> شقق للايجار بحي العارض <span class="ms-2">(299)</span></a>
+                        </li>
+                        <li>
+                          <a href="#"> شقق للايجار بحي المونسية <span class="ms-2">(198)</span></a>
+                        </li>
+                        <li>
+                          <a href="#"> شقق للتمليك بحي حطين <span class="ms-2">(32)</span></a>
+                        </li>
+                        <li>
+                          <a href="#"> ادوار للايجار بحي العليا <span class="ms-2">(14)</span></a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+                <div class="ad-photos mt-3">
+                  <img width="100%" src="img/ad-ex.png" alt="">
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="p-5">
+        <div class="container px-0">
+            <div class="d-flex align-items-top justify-content-between footer-section flex-wrap pb-3">
+                <div class="links flex-fill">
+                    <h3 class="mb-3">عن المنصة</h3>
+                    <ul class="p-0 m-0">
+                        <li><a href="#">سياسة إستخدام المنصة</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                        <li><a href="#">سياسة حقوق الملكية الفكرية</a></li>
+                        <li><a href="#">ضوابط الاعلانات العقارية</a></li>
+                    </ul>
+                </div>
+                <div class="links flex-fill">
+                    <h3 class="mb-3">الخدمات</h3>
+                    <ul class="p-0 m-0">
+                        <li><a href="#">خدمة المعلن</a></li>
+                        <li><a href="#">خدمة المستأجر</a></li>
+                        <li><a href="#">توثيق عقد (إيجار)</a></li>
+                        <li><a href="#">خدمات لوجيستية</a></li>
+                    </ul>
+                </div>
+                <div class="links flex-fill">
+                    <h3 class="mb-3">تواصل معنا</h3>
+                    <ul class="p-0 m-0">
+                        <li><a href="#">أتصل بنا</a></li>
+                        <li><a href="#">الأسئلة الشائعة</a></li>
+                        <li><a href="#">خريطة الموقع</a></li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <ul class="m-0 p-0">
+                        <li class="mb-3">
+                            <img src="img/footer-logo.svg" alt="">
+                        </li>
+                        <li class="mb-3">
+                            <img src="img/fal.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+                <p>2024 © جميع الحقوق محفوظة لـ أجرلي</p>
+                <ul class="p-0 m-0 social">
+                    <li class="mx-2">
+                        <a href="#"><img src="img/insta.svg" alt=""></a>
+                    </li>
+                    <li class="mx-2">
+                        <a href="#"><img src="img/youtube.svg" alt=""></a>
+                    </li>
+                    <li class="mx-2">
+                        <a href="#"><img src="img/x.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+
+  </body>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom-js.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script>
+    
+
+
+  </script>
+</html>

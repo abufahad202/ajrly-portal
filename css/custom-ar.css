@@ -110,6 +110,7 @@ a{
     transition: all .3s ease-in;
     color: var(--Dark-brown) !important;
 }
+a,a:hover {transition: all .3s ease-in;}
 .searchForm {
     .btn {
         clip-path: polygon(0 0, 0 0, 80% 0, 100% 20%, 100% 100%, 96% 100%, 10% 100%, 0% 100%);
@@ -154,19 +155,28 @@ p {
     
 }
 
+.navbar-nav .nav-link.show {
+    color: #fff !important;
+}
 header{
     background: transparent url(../img/header.jpg) no-repeat 0 0;
     height: 80vh;
     background-size: cover;
 
     .header {
-        background-color: rgba(255, 255, 255, 0.9);
+        background-color: rgba(90, 113, 132, 0.95);
         /*clip-path: polygon(0 0, 0 0, 98% 0, 100% 20%, 100% 100%, 96% 100%, 10% 100%, 0% 100%);*/
         font-family: 'Din-regular';
         
         .head-links {
-            span{color: var(--Praimary-blue);}
-            i {color: var(--Dark-brown);}
+            span{color: var(--Secondry-brown);}
+            i {color: var(--Secondry-brown);}
+        }
+        .nav-link {
+            color: var(--Secondry-brown);
+        }
+        .active {
+            color: #fff !important;
         }
     }
 
@@ -203,6 +213,14 @@ header{
     .carousel-indicators .active {
         width: 70px;
         background-color: var(--Secondry-blue);
+    }
+    .share {
+        a {
+            background-color: #fff;
+            color: var(--Dark-brown);
+            border-radius: 4px;
+            font-size: 20px;
+        }
     }
 }
 
@@ -554,7 +572,7 @@ footer {
 
 .inner {
     header{
-        height: 300px;
+        height: 250px;
         background: transparent url(../img/inner-head-bg.jpg) no-repeat 0 0;
         background-size: cover;
     }
@@ -571,13 +589,102 @@ footer {
         color: var(--Secondry-brown);
     }
     .content {
-        min-height: 500px;
-        border-radius: 16px;
-        padding: 30px;
-        border: 1px solid var(--Praimary-brown);
+        .fillters {
+            background-color: #F2F2F2;
+            .form-select {
+                border: 0;
+                background-color: transparent;
+                color: var(--Praimary-blue);
+                background-image:url(../img/downarrow.png);
+                background-size: auto;
+                background-position: 0px 18px;
+            }
+            .fillter-input {
+                border-left: 1px solid var(--Praimary-brown);
+                border-width: .5px;
+            }
+        }
+        .sort {
+            .form-select {
+                border: 0;
+            }
+        }
+        .count {
+            border: .5px solid var(--Praimary-brown);
+        }
+    }
+    .ad-box {
+        .image {height: 242px;}
+        border: .5px solid var(--Praimary-brown);
+        .info {
+            background-color: var(--Dark-color);
+            color: var(--Secondry-brown);
+        }
+        .content {
+            color: var(--Praimary-blue);
+            .date-tag {
+                span{font-weight: bold;color: var(--Dark-color);}
+            }
+            .badge {
+                padding: 5px 15px 10px;
+                font-size: 14px;
+                color: #fff !important;
+            }
+            .text-bg-success {
+                background-color: #28A79B !important;
+            }
+            .text-bg-warning {
+                background-color: #A78C28 !important;
+            }
+            .title {
+                i {font-size: 20px;}
+            }
+        }
+        p  {font-size: 16px;}
+        p.dec{color: var(--Dark-color);min-height: 48px;}
+        .logo {
+            border-radius: 8px;
+            border: .5px solid var(--Dark-color);
+        }
+        .dropdown-menu {
+            background: #FFF;
+            box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+            p {color: var(--Dark-brown);}
+            i {color: var(--Praimary-blue)}
+            img {width: 20px;}
+        }
+
+    }
+
+    .pagination {
+        .page-link {color: #A5A5A5;}
+        .active {
+            .page-link {
+                background-color: var(--Praimary-blue) !important;
+                border-color:var(--Praimary-blue) !important ;
+                color: #fff;
+            }
+        }
     }
 }
 
+.sidebar {
+    .sidetitle {
+        color: var(--Praimary-blue);
+        font-size: 20px;
+    }
+    .custom_title {
+        background-color: var(--Praimary-blue);
+        color: #fff;
+        font-size: 20px;
+    }
+}
+.view_more {
+    background-color: #F4F4F4;
+    ul {list-style-type: disc;}
+    a {color: var(--Dark-color);}
+    a:hover{color: var(--Dark-brown);}
+}
 
 .login {
     background: transparent url(../img/Login_bg.jpg) no-repeat 0 0;
