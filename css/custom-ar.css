@@ -187,6 +187,7 @@ header{
     }
     .carousel {
         width: 50%;
+        margin: 0;
     }
     .carousel-item h5,.carousel-item p  {
         color: white;
@@ -215,11 +216,15 @@ header{
         background-color: var(--Secondry-blue);
     }
     .share {
-        a {
+        a.p-2 {
             background-color: #fff;
             color: var(--Dark-brown);
             border-radius: 4px;
-            font-size: 20px;
+            font-size: 21px;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            display: block;
         }
     }
 }
@@ -568,9 +573,41 @@ footer {
     }
 }
 
-
+.card-body .badge, .ad-box .badge {
+    padding: 5px 15px 10px !important;
+    font-size: 14px !important;
+    color: #fff !important;
+}
+.card-body .text-bg-success, .ad-box .text-bg-success {
+    background-color: #28A79B !important;
+}
+.card-body .text-bg-warning, .ad-box .text-bg-warning {
+    background-color: #A78C28 !important;
+}
+ 
 
 .inner {
+    .carousel-indicators button.thumbnail {
+        width: 160px;
+        height: 130px;
+      }
+      .carousel-indicators button.thumbnail:not(.active) {
+        opacity: 0.5;
+      }
+      .carousel-indicators {
+        position: static;
+      }
+      .carousel-indicators {
+        position: relative !important;
+        left: auto !important;
+        bottom: auto !important;
+        right: auto !important;
+        display: block !important;
+        justify-content: center;
+        margin-left: 0 !important;
+        margin-bottom: 0 !important;
+        margin-right: 0 !important;
+    }
     header{
         height: 250px;
         background: transparent url(../img/inner-head-bg.jpg) no-repeat 0 0;
@@ -625,17 +662,7 @@ footer {
             .date-tag {
                 span{font-weight: bold;color: var(--Dark-color);}
             }
-            .badge {
-                padding: 5px 15px 10px;
-                font-size: 14px;
-                color: #fff !important;
-            }
-            .text-bg-success {
-                background-color: #28A79B !important;
-            }
-            .text-bg-warning {
-                background-color: #A78C28 !important;
-            }
+
             .title {
                 i {font-size: 20px;}
             }
@@ -646,14 +673,6 @@ footer {
             border-radius: 8px;
             border: .5px solid var(--Dark-color);
         }
-        .dropdown-menu {
-            background: #FFF;
-            box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
-            p {color: var(--Dark-brown);}
-            i {color: var(--Praimary-blue)}
-            img {width: 20px;}
-        }
-
     }
 
     .pagination {
@@ -852,10 +871,88 @@ footer {
 
 
 
+.ad_title {
+    background-color: #F2F2F2;
+    color: var(--Praimary-blue);
+    p {
+        font-size: 16px;
+        span {color: var(--Dark-color);}
+    }
+}
+
+.dropdown-menu.shaer_menu {
+    background: #FFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    p {color: var(--Dark-brown);font-size: 16px;}
+    i {color: var(--Praimary-blue)}
+    img {width: 20px;}
+    
+}
+
+.actions {
+    a.link {
+        background: #fff;
+        border: .5px solid var(--Praimary-blue);
+        color: var(--Praimary-blue);
+    }
+}
+.full_details {
+    color: var(--Praimary-blue);
+    h3 {color: var(--Praimary-blue);}
+}
+.font-16 {
+    font-size: 16px;
+}
+.unit_details {
+    color: var(--Dark-brown);
+    i {color: var(--Dark-color);}
+}
+.dec{
+    color: var(--Dark-color);
+}
+.ad-details {
+    p {color: var(--Praimary-blue);}
+    span {color: var(--Dark-brown);}
+}
+.proker_details {
+    background-color: #F8F8F8;
+    h4 {}
+    p {color: var(--Dark-brown);}
+    margin-bottom: 0;
+
+    p.dec {
+        color: var(--Dark-color);
+    }
+    .contact {
+        .bg-white {
+            border-radius: 4px;
+        }
+    }
+
+}
+.card-body h5.card-title {
+    color: var(--Praimary-blue);
+}
+.proker_logo {
+    border-radius: 8px;
+    border: .5px solid var(--Dark-color);
+    background: white;
+}
+.complaint {
+    width: 100%;
+    color: var(--Dark-brown) !important;
+    background: var(--Praimary-brown) !important;
+    padding: 1rem !important;
+}
 
 
 
 
+  @media screen and (min-width: 992px) {
+    .carousel {
+      margin: 0 auto;
+    }
+  }
 
 @media (max-width: 768px) {
     header {
@@ -910,6 +1007,11 @@ footer {
  }
 
 @media (max-width: 991px) { 
+    .related {
+        .mx-3 {margin-right: 0 !important;
+            margin-left: 0 !important;}
+            
+    }
 
     .about {
         .about-text {padding-right: 0;}
@@ -1022,7 +1124,7 @@ footer {
     }
     .navbar-collapse {
         position: absolute;
-        background: #d5cec4;
+        background: var(--Dark-brown);
         right: 0;
         left: 0;
         top: 78px;
