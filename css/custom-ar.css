@@ -1028,6 +1028,22 @@ footer {
     
 }
 
+.map {
+    background-color: #F2F2F2;
+    a {
+        span {color: var(--Praimary-blue);}
+    }
+}
+.address {
+    background: #fff;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    i {
+        color: var(--Praimary-blue);
+    }
+}
+
 
 
 
