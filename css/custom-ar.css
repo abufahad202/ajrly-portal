@@ -1084,8 +1084,100 @@ footer {
     }
  }
 
+ @media (max-width: 425px) {
+
+    .inner {
+        header {
+            height: auto;
+        }
+    }
+    .marketer {
+        & .owl-carousel {
+            .marketer-box {
+                width: auto;
+            }
+        }
+    }
+    .units {
+        & .card {
+            .img-count {
+                top: 43% !important;
+            }
+        }
+    }
+
+    .status {
+        .number{
+            width: 100%;
+            margin: 10px;
+        }
+    }
+    header {
+        height: 100vh;
+
+        .fixed-top {
+            .navbar-toggler {
+                left: -60px !important;
+            }
+        }
+
+        .custom-btn {
+            width: 100%;
+            clip-path: none !important;
+            margin-top: 10px;
+        }
+        .searchForm {
+            padding: 10px !important;
+            .select {border: 0;}
+        }
+        .carousel-indicators {
+            bottom: -60px;
+        }
+        .slider {
+            margin-top: 0;
+            padding-bottom: 20px !important;
+        }
+        & .header {
+            & .head-links {
+                width: 100%;
+                padding: 0 !important;
+                margin-top: 20px !important;
+            }
+        }
+        .navbar {
+            .navbar-toggler {
+                position: absolute;
+                left: 30px;
+                top: -30px;
+            }
+        }
+        .navbar-collapse {
+            right: -20px;
+        }
+    }
+        
+  }
+
 
  @media (max-width: 576px) { 
+
+    .inner {
+        & .ad-box {
+            .image {
+                height: auto;
+                width: 100%;
+                margin: 0 !important;
+                margin-bottom: 20px !important;
+        img {width: 100%;}
+
+            }
+        }
+    }
+    .carousel-item.active {
+        .d-none {
+            display: block !important;
+        }
+    }
     header {
         .navbar {
             position: absolute;
@@ -1096,10 +1188,11 @@ footer {
         .out_container {
             width: auto;
             right: 5%;
+            left: 5%;
         }
         .regisration-div {
             width: 90%;
-            right: auto;
+            right: 0%;
         }
     }
 
