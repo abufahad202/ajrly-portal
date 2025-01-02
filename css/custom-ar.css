@@ -1044,6 +1044,14 @@ footer {
     }
 }
 
+.error_page {
+    color: var(--Praimary-blue);
+    h1 {
+        font-size: 150px;
+        color: var(--Praimary-blue);
+    }
+}
+
 
 
 
