@@ -1084,7 +1084,54 @@ footer {
     }
  }
 
- @media (max-width: 425px) {
+ @media (max-width: 430px) {
+    .row{
+        margin:0 !important ;
+    }
+    .units, .about-portal, .right_content, .sidebar، .fillters, .status_inside {
+        padding: 15px !important;
+    }
+    .status_inside {
+        margin-right: -25px;
+    }
+    .container.about-portal {
+        padding: 15px !important;
+        margin-bottom: 30px;
+    }
+    .journeys {
+        .next {height: 20px;}
+    }
+    .journeys {
+        .container{
+            .next {
+                padding-right: 20px !important;
+                padding-left: 30px !important;
+                padding-top: 40px !important;
+            }
+        }
+    }
+    .choeses {
+        .enter {
+            margin-bottom: -70px !important;
+        }
+    }
+    footer {
+        .logo {
+            li {
+                width: 100%;
+                display: inline-block !important;
+            }
+        }
+        .copyrights {
+            p {
+                text-align: center;
+                width: 100%;
+            }
+            ul {
+                margin: 0 auto !important;
+            }
+        }
+    }
 
     .inner {
         header {
