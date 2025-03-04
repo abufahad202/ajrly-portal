@@ -564,6 +564,11 @@ header {
 }
 
 footer {
+    .logos {
+        img{
+            width: 50px;
+        }
+    }
     p{color: var(--Secondry-brown);font-size: 16px;}
     background-color: var(--Dark-color);
     .links {
@@ -1254,6 +1259,14 @@ footer {
  }
 
 @media (max-width: 991px) { 
+
+    .logos {
+        img{
+            width: 50px !important;
+            margin-top: 30px;
+        }
+    }
+
     .floated_input {
         position: relative;
         width: 100%;
